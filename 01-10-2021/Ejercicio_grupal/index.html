@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        form{
+            margin-left: 15%;
+        }
+    label{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-style: solid;
+        border-radius: 5px;
+        border-color: darkgreen;
+        background-color: coral;
+        padding: 5px;
+    }
+    input{
+        padding: 5px;
+        background-color: darkgrey;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    </style>    
+
+</head>
+<body>
+    
+    <h1>Calcular el descuento de la compra</h1>
+    <form>
+        <label>Nombre</label>
+        <input type="text" id="Nombre">
+        <label>Apellido</label>
+        <input type="text" id="Apellido">
+        <label>Valor de la compra</label>
+        <input type="number" id="valorC">
+        <input type="button" value="Calcular" onclick="Operacion()">
+        
+
+        
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+</html>
